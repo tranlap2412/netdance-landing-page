@@ -30,26 +30,21 @@ function Home() {
                 </p> */}
               </div>
               <div>
-                <a
-                  className="btn-primary py-4 px-8 mr-8"
-                  //   className="btn-primary py-4 px-8 mr-2 wow animate__animated animate__fadeIn hover-up-2"
-                  //   href="#key-features"
-                >
+                <a className="btn-primary py-4 px-8 mr-2 wow animate__animated animate__fadeIn hover-left-5">
                   Demo
                 </a>
-                <a
-                  //   className="btn-white wow animate__animated animate__fadeIn hover-up-2"
-                  className="btn-white py-8 px-8"
-                  //   data-wow-delay=".3s"
-                  //   href="#how-we-work"
-                >
+                <a className="btn-white wow animate__animated animate__fadeIn hover-right-5">
                   Demo
                 </a>
               </div>
             </div>
           </div>
           <div className="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
-            <img src="/assets/imgs/elements/pattern.png" alt="NetDance" />
+            <img
+              src="/assets/imgs/elements/pattern.png"
+              alt="NetDance"
+              className="jumpV"
+            />
             {/* <div
               className="absolute"
               style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}
@@ -64,8 +59,7 @@ function Home() {
           <div className="container px-4 mx-auto">
             <div className="flex flex-wrap justify-between pt-8 pb-16">
               <div
-                // className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn"
-                className="flex w-1/2 lg:w-auto py-4 "
+                className="hover-down-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn"
                 data-wow-delay=".2s"
               >
                 <div className="flex justify-center items-center bg-blueGray-50 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
@@ -87,15 +81,17 @@ function Home() {
                 <div className="sm:py-2 ml-2 sm:ml-6">
                   <span className="sm:text-2xl font-bold font-heading">+ </span>
                   <span className="sm:text-2xl font-bold font-heading count">
-                    {/* <CounterUp count={950} time={3} /> */}
-                    3000
+                    <CounterUp count={3000} time={5} />
                   </span>
                   <p className="text-xs sm:text-base text-blueGray-400">
                     NetDance
                   </p>
                 </div>
               </div>
-              <div className=" flex w-1/2 lg:w-auto py-4 " data-wow-delay=".4s">
+              <div
+                className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn"
+                data-wow-delay=".4s"
+              >
                 <div className="flex justify-center items-center bg-blueGray-50 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
                   <svg
                     className="w-8 h-8"
@@ -115,8 +111,7 @@ function Home() {
                 <div className="sm:py-2 ml-2 sm:ml-6">
                   <span className="sm:text-2xl font-bold font-heading">+ </span>
                   <span className="sm:text-2xl font-bold font-heading count">
-                    {/* <CounterUp count={950} time={3} /> */}
-                    3000
+                    <CounterUp count={3000} time={5} />
                   </span>
                   <span className="sm:text-2xl font-bold font-heading">
                     {" "}
@@ -127,7 +122,10 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className=" flex w-1/2 lg:w-auto py-4 " data-wow-delay=".6s">
+              <div
+                className="hover-down-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn"
+                data-wow-delay=".6s"
+              >
                 <div className="flex justify-center items-center bg-blueGray-50 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
                   <svg
                     className="w-8 h-8"
@@ -147,15 +145,17 @@ function Home() {
                 <div className="sm:py-2 ml-2 sm:ml-6">
                   <span className="sm:text-2xl font-bold font-heading">+ </span>
                   <span className="sm:text-2xl font-bold font-heading count">
-                    {/* <CounterUp count={950} time={3} /> */}
-                    3000
+                    <CounterUp count={3000} time={5} />
                   </span>
                   <p className="text-xs sm:text-base text-blueGray-400">
                     NetDance
                   </p>
                 </div>
               </div>
-              <div className=" flex w-1/2 lg:w-auto py-4 " data-wow-delay=".8s">
+              <div
+                className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn"
+                data-wow-delay=".8s"
+              >
                 <div className="flex justify-center items-center bg-blueGray-50 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
                   <svg
                     className="w-8 h-8"
@@ -175,8 +175,7 @@ function Home() {
                 <div className="sm:py-2 ml-2 sm:ml-6">
                   <span className="sm:text-2xl font-bold font-heading">+ </span>
                   <span className="sm:text-2xl font-bold font-heading count">
-                    {/* <CounterUp count={950} time={3} /> */}
-                    3000
+                    <CounterUp count={3000} time={5} />
                   </span>
                   <p className="text-xs sm:text-base text-blueGray-400">
                     NetDance
@@ -195,8 +194,7 @@ function Home() {
             <div className="flex flex-wrap lg:flex-nowrap">
               <div className="w-full lg:w-1/2">
                 <div
-                  className="lg:py-6 lg:pr-77"
-                  //   className="lg:py-6 lg:pr-77"
+                  className="lg:py-6 lg:pr-77 wow animate__animated animate__fadeInLeft"
                   data-wow-delay=".3s"
                 >
                   <div className="mb-4">
@@ -207,7 +205,7 @@ function Home() {
                       Why choose us
                     </span> */}
                     <h2
-                      className="text-4xl mt-5 font-bold font-heading"
+                      className="text-4xl mt-5 font-bold font-heading "
                       data-wow-delay=".3s"
                     >
                       NetDance Features
@@ -320,7 +318,7 @@ function Home() {
                     alt="NetDance"
                   /> */}
                   <img
-                    className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12"
+                    className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12 jumpX"
                     src="/assets/imgs/elements/blob-tear.svg"
                     alt="NetDance"
                   />
@@ -344,7 +342,7 @@ function Home() {
                 </h2>
               </div>
               <div className="w-full lg:w-1/2">
-                <p className="text-blueGray-400 leading-loose wow animate__animated animate__fadeIn">
+                <p className="text-blueGray-400 leading-loose wow animate__animated animate__fadeInRight">
                   The best music for audiences and fans to enjoy - from the
                   people who make the most of efforts The best music for
                   audiences and fans to enjoy - from the people who make the
@@ -354,8 +352,7 @@ function Home() {
             </div>
             <div className="flex flex-wrap -mx-3 -mb-6 text-center">
               <div
-                className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
-                // className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
+                className="hover-left-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
                 data-wow-delay=".3s"
               >
                 <div className="p-12 bg-white shadow rounded h-128">
@@ -377,7 +374,7 @@ function Home() {
                 </div>
               </div>
               <div
-                className=" w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
+                className="hover-down-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
                 data-wow-delay=".5s"
               >
                 <div className="p-12 bg-white shadow rounded h-128">
@@ -398,7 +395,7 @@ function Home() {
                   </p> */}
                 </div>
               </div>
-              <div className=" w-full lg:w-1/3 px-3 mb-6">
+              <div className="hover-right-5 w-full lg:w-1/3 px-3 mb-6">
                 <div
                   className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn h-128"
                   data-wow-delay=".7s"
@@ -426,7 +423,7 @@ function Home() {
         <section className="py-12 md:py-20">
           <div className="container px-4 mx-auto">
             <div className="flex flex-wrap -mx-3">
-              <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left">
+              <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left ">
                 <div className="max-w-md lg:max-w-xs lg:pr-16 mx-auto lg:ml-0 mb-6 lg:mb-0">
                   <h2
                     className="text-3xl md:text-4xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn"
