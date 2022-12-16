@@ -1850,7 +1850,7 @@ nav li.has-child::after {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 999;
+  z-index: 20;
   left: 0;
   transition: all 0.3s ease 0s;
   background: #fff;
