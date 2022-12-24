@@ -2,6 +2,9 @@ import CounterUp from "../components/elements/Counterup";
 import TextEffect from "../components/elements/TextEffect";
 import Layout from "../components/layout/Layout";
 import Slider1 from "../components/slider/Slider1";
+import Slider2 from "../components/slider/Slider2";
+import Slider4 from "../components/slider/Slider4";
+import PriceIcon from "../public/assets/imgs/icons/priceIcon.svg";
 
 function Home() {
   return (
@@ -15,25 +18,35 @@ function Home() {
         >
           <div className="container px-4 mx-auto">
             <div className="pt-12 text-center">
-              <div className="max-w-2xl mx-auto mb-8">
-                <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn">
-                  Netdance platform Integrate all parameters from other
-                  platforms <br />
-                  {/* Committed <span className="text-blue-500">to the Future</span> */}
+              <div className="max-w-2xl mx-auto mb-5">
+                <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-1 font-bold font-heading wow animate__animated animate__fadeIn">
+                  <span className="text-blue-500">Netdance</span> platform
+                  Integrate all parameters from other platforms <br />
                 </h2>
-                {/* <p className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn">
-                  We are <strong className="text-blue-500">NetDance</strong>, a
-                  Creative Design{" "}
-                  <span className="typewrite d-inline text-brand">
-                    <TextEffect text1="Web Agency" text2="Social Marketing" />
+                <p className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn">
+                  See more <strong className="text-blue-500">NetDance</strong>{" "}
+                  cart with commitment <br />
+                  <span className="typewrite d-inline text-blue-500">
+                    <TextEffect
+                      text1="Best price"
+                      text2="Eclusive combo"
+                      text3="Comprehensive consulting package"
+                    />
                   </span>
-                </p> */}
+                </p>
+                <a className="btn-accent cursor-pointer py-4 mt-4 px-8 flex items-center justify-center w-64 mx-auto wow animate__animated animate__fadeIn hover-up-5">
+                  <img
+                    className="w-5 mr-4"
+                    src="/assets/imgs/icons/shopping.svg"
+                  />
+                  <span>Buy now</span>
+                </a>
               </div>
               <div>
-                <a className="btn-primary py-4 px-8 mr-2 wow animate__animated animate__fadeIn hover-left-5">
+                <a className="btn-primary cursor-pointer py-4 px-8 mr-2 wow animate__animated animate__fadeIn hover-left-5">
                   Demo
                 </a>
-                <a className="btn-white wow animate__animated animate__fadeIn hover-right-5">
+                <a className="btn-white cursor-pointer wow animate__animated animate__fadeIn hover-right-5">
                   Demo
                 </a>
               </div>
@@ -43,18 +56,19 @@ function Home() {
             <img
               src="/assets/imgs/elements/pattern.png"
               alt="NetDance"
-              className="jumpV"
+              // className="jumpV"
             />
-            {/* <div
+            <div
               className="absolute"
               style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}
             >
-              <img
+              {/* <img
                 className="jump rounded wow animate__animated animate__fadeIn"
                 src="/assets/imgs/placeholders/dashboard.png"
                 alt="NetDance"
-              />
-            </div> */}
+              /> */}
+              <Slider4 />
+            </div>
           </div>
           <div className="container px-4 mx-auto">
             <div className="flex flex-wrap justify-between pt-8 pb-16">
@@ -186,7 +200,7 @@ function Home() {
           </div>
         </section>
 
-        <section
+        {/* <section
           className="pt-8 pb-12 md:py-16 lg:py-16 overflow-x-hidden"
           id="key-features"
         >
@@ -198,12 +212,12 @@ function Home() {
                   data-wow-delay=".3s"
                 >
                   <div className="mb-4">
-                    {/* <span
+                    <span
                       className="text-xs py-1 px-3 text-blue-500 font-semibold bg-blue-50 rounded-xlDown"
                       data-wow-delay=".9s"
                     >
                       Why choose us
-                    </span> */}
+                    </span>
                     <h2
                       className="text-4xl mt-5 font-bold font-heading "
                       data-wow-delay=".3s"
@@ -307,16 +321,16 @@ function Home() {
                   className="wow animate__animated animate__fadeIn"
                   data-wow-delay=".5s"
                 >
-                  {/* <img
+                  <img
                     className="jump relative mx-auto rounded-xl w-full z-10"
                     src="/assets/imgs/placeholders/img-1.png"
                     alt="NetDance"
-                  /> */}
-                  {/* <img
+                  />
+                  <img
                     className="absolute top-0 left-0 w-40 -ml-12 -mt-12"
                     src="/assets/imgs/elements/blob-tear.svg"
                     alt="NetDance"
-                  /> */}
+                  />
                   <img
                     className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12 jumpX"
                     src="/assets/imgs/elements/blob-tear.svg"
@@ -326,38 +340,118 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="py-20 bg-blueGray-50" id="how-we-work">
           <div className="container px-4 mx-auto">
             <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
-              <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
+              <div className="w-full mb-4 lg:mb-0">
                 <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animated animate__fadeInDown">
-                  <span>
-                    The best music for audiences and fans to enjoy - from the
-                  </span>
-                  {/* <span className="text-blue-500"> awesome team</span> */}
-                  <br />
-                  <span> people who make the most of efforts</span>
+                  <p className="text-blue-500  text-center">
+                    {" "}
+                    Netdance's exclusive products, services and distribution
+                  </p>
                 </h2>
-              </div>
-              <div className="w-full lg:w-1/2">
-                <p className="text-blueGray-400 leading-loose wow animate__animated animate__fadeInRight">
-                  The best music for audiences and fans to enjoy - from the
-                  people who make the most of efforts The best music for
-                  audiences and fans to enjoy - from the people who make the
-                  most of efforts
-                </p>
               </div>
             </div>
             <div className="flex flex-wrap -mx-3 -mb-6 text-center">
               <div
-                className="hover-left-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
+                className="relative w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
                 data-wow-delay=".3s"
               >
+                <div class="p-8 hover-show-content shadow rounded h-128 text-white flex flex-col items-start justify-center h-full">
+                  <div className="mt-4">
+                    <h3 className="text-left mb-1 font-bold font-heading text-xl">
+                      Creative Principles
+                    </h3>
+                    <p className="text-left text-sm leading-relaxed">
+                      Discipline, Responsibility, Enthusiasm, Esffort to improve
+                      capacity
+                    </p>
+                  </div>
+                  <div className="mt-4">
+                    <h3 className="text-left mb-1 font-bold font-heading text-xl">
+                      Mechanism of Contract
+                    </h3>
+                    <p className="text-left text-sm leading-relaxed">
+                      Cooperation and Responsibility
+                    </p>
+                  </div>
+                  <div className="mt-4">
+                    <h3 className="text-left mb-1 font-bold font-heading text-xl">
+                      Creative Steps
+                    </h3>
+                    <p className="mt-2 text-left text-sm leading-relaxed">
+                      1. Editing leading music tastes.
+                    </p>
+                    <p className="mt-2 text-left text-sm leading-relaxed">
+                      2. Strategizing matrix module playlist combo products.
+                    </p>
+                    <p className="mt-2 text-left text-sm leading-relaxed">
+                      3. Deploying division of core tasks by parts: sound,
+                      image, content, voice singing, mixing, recording and media
+                      sponsorship alliance PR team.
+                    </p>
+                  </div>
+                </div>
                 <div className="p-12 bg-white shadow rounded h-128">
-                  {/* <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                  <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
                     1
+                  </div>
+                  <img
+                    className="h-36 mx-auto my-4"
+                    src="/assets/imgs/illustrations/podcast.svg"
+                    alt="NetDance"
+                  />
+                  <h3 className="mb-2 font-bold font-heading text-xl">Music</h3>
+                  <p className="text-sm text-blueGray-400 leading-relaxed">
+                    From global young talents - creative mission and dedication
+                    with passion to the audience - creative colors and creative
+                    determination regardless of life.
+                  </p>
+                </div>
+              </div>
+              <div
+                className="relative w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
+                data-wow-delay=".5s"
+              >
+                <div class="p-8 hover-show-content shadow rounded h-128 text-white flex flex-col items-start justify-center h-full">
+                  <div className="mt-4">
+                    <h3 className="text-left mb-1 font-bold font-heading text-xl">
+                      Speculative / Short-Selling Portfolio
+                    </h3>
+                    <p className="text-left text-sm leading-relaxed">
+                      NetDance with a market leading trend portfolio - with
+                      sharing of investment insights analysis for individuals
+                      and organizations who want to join the partnership.
+                    </p>
+                  </div>
+                  <div className="mt-2">
+                    <h3 className="text-left mb-1 font-bold font-heading text-xl">
+                      Investment Process
+                    </h3>
+                    <p className="mt-2 text-left text-sm leading-relaxed">
+                      1. Valuing each project.
+                    </p>
+                    <p className="mt-2 text-left text-sm leading-relaxed">
+                      2. To cancel the contract of guaranteeing investment
+                      benefits or join the same project.
+                    </p>
+                    <p className="mt-2 text-left text-sm leading-relaxed">
+                      3. List of projects to be implemented.
+                    </p>
+                    <p className="mt-2 text-left text-sm leading-relaxed">
+                      4. See project demo.
+                    </p>
+                    <p className="mt-2 text-left text-sm leading-relaxed">
+                      5. Send application information for approval to
+                      participate.
+                    </p>
+                  </div>
+                </div>
+                <div className="p-12 bg-white shadow rounded h-128">
+                  <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                    2
                   </div>
                   <img
                     className="h-36 mx-auto my-4"
@@ -365,21 +459,40 @@ function Home() {
                     alt="NetDance"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
-                    Project Initialization
+                    Investment
                   </h3>
                   <p className="text-sm text-blueGray-400 leading-relaxed">
-                    Project initiation ensures that you lay a strong foundation
-                    for a new project in your company our team.
-                  </p> */}
+                    A call to accompany and expand netdance portfolio
+                    nationwide.
+                  </p>
                 </div>
               </div>
-              <div
-                className="hover-down-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
-                data-wow-delay=".5s"
-              >
-                <div className="p-12 bg-white shadow rounded h-128">
-                  {/* <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
-                    2
+              <div className="relative w-full lg:w-1/3 px-3 mb-6  wow animate__animated animate__fadeIn">
+                <div class="p-8 hover-show-content shadow rounded h-128 text-white flex flex-col items-start justify-center h-full">
+                  <div className="mt-4">
+                    <h3 className="text-left mb-1 font-bold font-heading text-xl">
+                      Exclusive distribution model
+                    </h3>
+                    <p className="text-left mt-2  text-sm leading-relaxed">
+                      1. Provide an ecosystem of equipment and solutions for
+                      businesses: Laptop equipment, macbook, server,
+                      infrastructure, etc. software, switchboard system, camera
+                      system, etc.
+                    </p>
+                    <p className="text-left mt-2 text-sm leading-relaxed">
+                      2. Exclusive distribution of OEM netdance account designs
+                      to participate in project investment with netdance and
+                      participate in and the netdance creative community, etc.,
+                      open gifts.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="p-12 bg-white shadow rounded h-128"
+                  data-wow-delay=".7s"
+                >
+                  <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                    3
                   </div>
                   <img
                     className="h-36 mx-auto my-4"
@@ -387,34 +500,12 @@ function Home() {
                     alt="NetDance"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
-                    Project planning
+                    Exclusive distribution model
                   </h3>
                   <p className="text-sm text-blueGray-400 leading-relaxed">
-                    A project plan is essential to keep everything related to
-                    the project organized, methodical, and on track.
-                  </p> */}
-                </div>
-              </div>
-              <div className="hover-right-5 w-full lg:w-1/3 px-3 mb-6">
-                <div
-                  className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn h-128"
-                  data-wow-delay=".7s"
-                >
-                  {/* <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
-                    3
-                  </div>
-                  <img
-                    className="h-36 mx-auto my-4"
-                    src="/assets/imgs/illustrations/tasks.svg"
-                    alt="NetDance"
-                  />
-                  <h3 className="mb-2 font-bold font-heading text-xl">
-                    Project organization
-                  </h3>
-                  <p className="text-sm text-blueGray-400 leading-relaxed">
-                    Moving forward you will be able to keep yourself and your
-                    team on track, and address challenges early.
-                  </p> */}
+                    Provide quotes at wholesale prices for individuals and
+                    organizations using netdance extension services.
+                  </p>
                 </div>
               </div>
             </div>

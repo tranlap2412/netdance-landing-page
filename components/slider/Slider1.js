@@ -25,9 +25,9 @@ const Slider1 = () => {
       >
         <SwiperSlide>
           <div className="px-3 pb-5">
-            <div className="card-slider group bg-white h-128">
-              {/* <div className="card-slider group"> */}
-              {/* <img
+            {/* <div className="card-slider group bg-white h-128"> */}
+            <div className="card-slider group">
+              <img
                 className="rounded-xl"
                 src="/assets/imgs/placeholders/img-2.jpg"
                 alt="NetDance"
@@ -35,7 +35,7 @@ const Slider1 = () => {
               <div className="flex justify-between items-end">
                 <div>
                   <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
-                    <Link href="/services">
+                    <Link href="/">
                       <a>User growth</a>
                     </Link>
                   </h1>
@@ -44,20 +44,20 @@ const Slider1 = () => {
                   </p>
                 </div>
                 <div>
-                  <Link href="/services">
+                  <Link href="/">
                     <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">
-                      View Details
+                      Netdance
                     </a>
                   </Link>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="px-3 pb-5">
             <div className="card-slider group bg-white h-128">
-              {/* <img
+              <img
                 className="rounded-xl"
                 src="/assets/imgs/placeholders/img-3.jpg"
                 alt="NetDance"
@@ -65,27 +65,27 @@ const Slider1 = () => {
               <div className="flex justify-between items-end">
                 <div>
                   <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
-                    <Link href="/services">
+                    <Link href="/">
                       <a>Products</a>
                     </Link>
                   </h1>
                   <p className="mt-2 text-xs text-gray-500">Cocacola., Co</p>
                 </div>
                 <div>
-                  <Link href="/services">
+                  <Link href="/">
                     <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">
-                      View Details
+                      Netdance
                     </a>
                   </Link>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="px-3 pb-5">
             <div className="card-slider group bg-white h-128">
-              {/* <img
+              <img
                 className="rounded-xl"
                 src="/assets/imgs/placeholders/img-4.jpg"
                 alt="NetDance"
@@ -93,7 +93,7 @@ const Slider1 = () => {
               <div className="flex justify-between items-end">
                 <div>
                   <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
-                    <Link href="/services">
+                    <Link href="/">
                       <a>Event</a>
                     </Link>
                   </h1>
@@ -102,17 +102,17 @@ const Slider1 = () => {
                   </p>
                 </div>
                 <div>
-                  <Link href="/services">
+                  <Link href="/">
                     <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">
-                      View Details
+                      Netdance
                     </a>
                   </Link>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <div className="px-3 pb-5">
             <div className="card-slider group">
               <img
@@ -123,28 +123,27 @@ const Slider1 = () => {
               <div className="flex justify-between items-end">
                 <div>
                   <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
-                    <Link href="/services">
+                    <Link href="/">
                       <a>Shopping</a>
                     </Link>
                   </h1>
                   <p className="mt-2 text-xs text-gray-500">Alibaba Co</p>
                 </div>
                 <div>
-                  <Link href="/services">
+                  <Link href="/">
                     <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">
-                      View Details
+                      Netdance
                     </a>
                   </Link>
                 </div>
               </div>
             </div>
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
       </Swiper>
 
       <div id="carausel-2-columns-1-arrows" className="flex">
-        <span className="mr-4  ">
-          {/* <span className="mr-4 text-blue-500 flex slick-arrow custom_prev"> */}
+        <span className="mr-4 text-blue-500 flex slick-arrow custom_prev">
           <svg
             className="w-6 h-6"
             fill="none"
@@ -160,8 +159,7 @@ const Slider1 = () => {
             ></path>
           </svg>
         </span>
-        <span className="">
-          {/* <span className="text-blue-500 flex slick-arrow custom_next"> */}
+        <span className="text-blue-500 flex slick-arrow custom_next">
           <svg
             className="w-6 h-6"
             fill="none"
