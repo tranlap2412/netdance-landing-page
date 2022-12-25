@@ -515,23 +515,29 @@ function Home() {
           <div className="container px-4 mx-auto">
             <div className="flex flex-wrap -mx-3">
               <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left ">
-                <div className="max-w-md lg:max-w-xs lg:pr-16 mx-auto lg:ml-0 mb-6 lg:mb-0">
+                <div className="max-w-md lg:max-w-xs mx-auto lg:ml-0 mb-6 lg:mb-0">
                   <h2
                     className="text-3xl md:text-4xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn"
                     data-wow-delay=".3s"
                   >
-                    NetDance
-                    {/* <span className="text-blue-500">Complex</span> Connections */}
+                    <span className="text-blue-500">
+                      Why should you choose Netdance?
+                    </span>
                   </h2>
-                  <p
+                  <img
+                    className="h-36 mx-auto my-4"
+                    src="/assets/imgs/illustrations/faqs.svg"
+                    alt="NetDance"
+                  />
+                  <div
                     className="text-xs md:text-base text-blueGray-400 leading-loose wow animate__animated animate__fadeIn"
                     data-wow-delay=".9s"
                   >
-                    The best music for audiences and fans to enjoy - from the
-                    people who make the most of efforts The best music for
-                    audiences and fans to enjoy - from the people who make the
-                    most of efforts
-                  </p>
+                    <li>Professional management team</li>
+                    <li>Netdance directory tree platform</li>
+                    <li>Support talent development</li>
+                    <li>Modern working style</li>
+                  </div>
                 </div>
               </div>
               <div className="w-full lg:w-2/3 flex flex-wrap">

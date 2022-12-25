@@ -23,10 +23,9 @@ const Slider1 = () => {
           nextEl: ".custom_next",
         }}
       >
-        <SwiperSlide>
-          <div className="px-3 pb-5">
-            {/* <div className="card-slider group bg-white h-128"> */}
-            <div className="card-slider group">
+        {/* <SwiperSlide>
+          <div className="px-2 pb-5">
+            <div className="card-slider group mx-auto">
               <img
                 className="rounded-xl"
                 src="/assets/imgs/placeholders/img-2.jpg"
@@ -45,7 +44,7 @@ const Slider1 = () => {
                 </div>
                 <div>
                   <Link href="/">
-                    <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">
+                    <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">
                       Netdance
                     </a>
                   </Link>
@@ -53,27 +52,30 @@ const Slider1 = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
-          <div className="px-3 pb-5">
-            <div className="card-slider group bg-white h-128">
+          <div className="px-2 pb-5">
+            <div className="card-slider group mx-auto">
               <img
                 className="rounded-xl"
                 src="/assets/imgs/placeholders/img-3.jpg"
                 alt="NetDance"
               />
               <div className="flex justify-between items-end">
-                <div>
+                <div className="">
                   <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
                     <Link href="/">
-                      <a>Products</a>
+                      <a>Personnel</a>
                     </Link>
                   </h1>
-                  <p className="mt-2 text-xs text-gray-500">Cocacola., Co</p>
+                  <p className="mt-2 text-xs text-gray-500">
+                    Online workplace, high working stylestudio, producer photos,
+                    programming teams
+                  </p>
                 </div>
                 <div>
                   <Link href="/">
-                    <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">
+                    <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">
                       Netdance
                     </a>
                   </Link>
@@ -83,8 +85,8 @@ const Slider1 = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="px-3 pb-5">
-            <div className="card-slider group bg-white h-128">
+          <div className="px-2 pb-5">
+            <div className="card-slider group mx-auto">
               <img
                 className="rounded-xl"
                 src="/assets/imgs/placeholders/img-4.jpg"
@@ -94,16 +96,17 @@ const Slider1 = () => {
                 <div>
                   <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
                     <Link href="/">
-                      <a>Event</a>
+                      <a>Servants</a>
                     </Link>
                   </h1>
-                  <p className="mt-2 text-xs text-gray-500">
-                    Oxford university
+                  <p className="mt-3 text-xs text-gray-500">
+                    Set of layouts, Laws, policies and privacy.
                   </p>
+                  <p className="mt-3 text-xs text-gray-500"></p>
                 </div>
                 <div>
                   <Link href="/">
-                    <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">
+                    <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">
                       Netdance
                     </a>
                   </Link>
@@ -113,8 +116,8 @@ const Slider1 = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="px-3 pb-5">
-            <div className="card-slider group">
+          <div className="px-2 pb-5">
+            <div className="card-slider group mx-auto">
               <img
                 className="rounded-xl"
                 src="/assets/imgs/placeholders/img-5.jpg"
@@ -124,14 +127,14 @@ const Slider1 = () => {
                 <div>
                   <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
                     <Link href="/">
-                      <a>Shopping</a>
+                      <a>Affiliate events</a>
                     </Link>
                   </h1>
                   <p className="mt-2 text-xs text-gray-500">Alibaba Co</p>
                 </div>
                 <div>
                   <Link href="/">
-                    <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">
+                    <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">
                       Netdance
                     </a>
                   </Link>
