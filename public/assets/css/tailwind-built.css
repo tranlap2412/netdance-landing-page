@@ -8,6 +8,7 @@ Document
 /**
 Use a better box model (opinionated).
 */
+
 *,
 ::before,
 ::after {
@@ -497,7 +498,7 @@ video {
     var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
     var(--tw-sepia) var(--tw-drop-shadow);
 }
-.container {
+/* .container mx-auto {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -505,25 +506,25 @@ video {
   padding-left: 1rem;
 }
 @media (min-width: 640px) {
-  .container {
+  .container mx-auto {
     max-width: 640px;
   }
 }
 @media (min-width: 768px) {
-  .container {
+  .container mx-auto {
     max-width: 768px;
   }
 }
 @media (min-width: 1024px) {
-  .container {
+  .container mx-auto {
     max-width: 1024px;
   }
 }
 @media (min-width: 1200px) {
-  .container {
+  .container mx-auto {
     max-width: 1200px;
   }
-}
+} */
 .drop-down-menu {
   visibility: hidden;
   position: absolute;
@@ -962,6 +963,9 @@ video {
 }
 .h-128 {
   height: 32rem !important;
+}
+.h-136 {
+  height: 36rem !important;
 }
 .w-4 {
   width: 1rem !important;
@@ -1736,6 +1740,24 @@ button:focus {
 .max-h-0 {
   max-height: 0;
 }
+/* .max-h-24 {
+  max-height: 6rem;
+}
+.max-h-28 {
+  max-height: 7rem;
+}
+.max-h-32 {
+  max-height: 8rem;
+}
+.max-h-36 {
+  max-height: 9rem;
+}
+.max-h-40 {
+  max-height: 10rem;
+}
+.max-h-44 {
+  max-height: 11rem;
+} */
 
 img {
   z-index: 2;

@@ -7,11 +7,13 @@ const Preloader = () => {
         <div className="preloader flex-1 content-center">
           <div className="flex flex-col justify-center logo w-full h-full jump">
             <img
-              src="/assets/imgs/logos/logo.png"
+              src="/assets/imgs/logos/logo4.jpg"
               className="mx-auto"
               alt="NetDance"
             />
-            <h1 className="text-lg ml-10 font-semibol text-center">NetDance</h1>
+            <h1 className="text-lg ml-10 font-semibol text-gray-500 text-center">
+              Netdance
+            </h1>
           </div>
         </div>
       </div>

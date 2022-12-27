@@ -25,7 +25,7 @@ const Slider1 = () => {
       >
         {/* <SwiperSlide>
           <div className="px-2 pb-5">
-            <div className="card-slider group mx-auto">
+            <div className="card-slider group mx-auto h-136">
               <img
                 className="rounded-xl"
                 src="/assets/imgs/placeholders/img-2.jpg"
@@ -55,7 +55,7 @@ const Slider1 = () => {
         </SwiperSlide> */}
         <SwiperSlide>
           <div className="px-2 pb-5">
-            <div className="card-slider group mx-auto">
+            <div className="card-slider group mx-auto h-136">
               <img
                 className="rounded-xl"
                 src="/assets/imgs/placeholders/img-3.jpg"
@@ -86,7 +86,7 @@ const Slider1 = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="px-2 pb-5">
-            <div className="card-slider group mx-auto">
+            <div className="card-slider group mx-auto h-136">
               <img
                 className="rounded-xl"
                 src="/assets/imgs/placeholders/img-4.jpg"
@@ -117,7 +117,7 @@ const Slider1 = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="px-2 pb-5">
-            <div className="card-slider group mx-auto">
+            <div className="card-slider group mx-auto h-136">
               <img
                 className="rounded-xl"
                 src="/assets/imgs/placeholders/img-5.jpg"

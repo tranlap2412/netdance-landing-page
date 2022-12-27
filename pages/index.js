@@ -5,6 +5,7 @@ import Slider1 from "../components/slider/Slider1";
 import Slider2 from "../components/slider/Slider2";
 import Slider4 from "../components/slider/Slider4";
 import PriceIcon from "../public/assets/imgs/icons/priceIcon.svg";
+import Link from "next/link";
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
             backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')",
           }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto px-4 mx-auto">
             <div className="pt-12 text-center">
               <div className="max-w-2xl mx-auto mb-5">
                 <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-1 font-bold font-heading wow animate__animated animate__fadeIn">
@@ -27,11 +28,8 @@ function Home() {
                   See more <strong className="text-blue-500">NetDance</strong>{" "}
                   cart with commitment <br />
                   <span className="typewrite d-inline text-blue-500">
-                    <TextEffect
-                      text1="Best price"
-                      text2="Eclusive combo"
-                      text3="Comprehensive consulting package"
-                    />
+                    Best price, Eclusive combo
+                    <TextEffect text1=", Comprehensive consulting package" />
                   </span>
                 </p>
                 <a className="btn-accent cursor-pointer py-4 mt-4 px-8 flex items-center justify-center w-64 mx-auto wow animate__animated animate__fadeIn hover-up-5">
@@ -70,7 +68,7 @@ function Home() {
               <Slider4 />
             </div>
           </div>
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto px-4 mx-auto">
             <div className="flex flex-wrap justify-between pt-8 pb-16">
               <div
                 className="hover-down-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn"
@@ -88,17 +86,17 @@ function Home() {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="2"
-                      //   d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                      d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"
                     ></path>
                   </svg>
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
                   <span className="sm:text-2xl font-bold font-heading">+ </span>
                   <span className="sm:text-2xl font-bold font-heading count">
-                    <CounterUp count={3000} time={5} />
+                    <CounterUp count={200} time={4} />
                   </span>
                   <p className="text-xs sm:text-base text-blueGray-400">
-                    NetDance
+                    Partners / personnel
                   </p>
                 </div>
               </div>
@@ -118,21 +116,18 @@ function Home() {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="2"
-                      //   d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"
+                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
                     ></path>
                   </svg>
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
                   <span className="sm:text-2xl font-bold font-heading">+ </span>
                   <span className="sm:text-2xl font-bold font-heading count">
-                    <CounterUp count={3000} time={5} />
+                    <CounterUp count={3} time={2} />
                   </span>
-                  <span className="sm:text-2xl font-bold font-heading">
-                    {" "}
-                    k{" "}
-                  </span>
+                  <span className="sm:text-2xl font-bold font-heading"> k</span>
                   <p className="text-xs sm:text-base text-blueGray-400">
-                    NetDance
+                    Salary FAN Follow
                   </p>
                 </div>
               </div>
@@ -152,17 +147,17 @@ function Home() {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="2"
-                      //   d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                      d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
                     ></path>
                   </svg>
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
                   <span className="sm:text-2xl font-bold font-heading">+ </span>
                   <span className="sm:text-2xl font-bold font-heading count">
-                    <CounterUp count={3000} time={5} />
+                    <CounterUp count={5} time={2} />
                   </span>
                   <p className="text-xs sm:text-base text-blueGray-400">
-                    NetDance
+                    List of products
                   </p>
                 </div>
               </div>
@@ -182,17 +177,17 @@ function Home() {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="2"
-                      //   d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
                     ></path>
                   </svg>
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
                   <span className="sm:text-2xl font-bold font-heading">+ </span>
                   <span className="sm:text-2xl font-bold font-heading count">
-                    <CounterUp count={3000} time={5} />
+                    <CounterUp count={100} time={4} />
                   </span>
                   <p className="text-xs sm:text-base text-blueGray-400">
-                    NetDance
+                    Number of customers
                   </p>
                 </div>
               </div>
@@ -204,7 +199,7 @@ function Home() {
           className="pt-8 pb-12 md:py-16 lg:py-16 overflow-x-hidden"
           id="key-features"
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto px-4 mx-auto">
             <div className="flex flex-wrap lg:flex-nowrap">
               <div className="w-full lg:w-1/2">
                 <div
@@ -343,7 +338,7 @@ function Home() {
         </section> */}
 
         <section className="py-20 bg-blueGray-50" id="how-we-work">
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto px-4 mx-auto">
             <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
               <div className="w-full mb-4 lg:mb-0">
                 <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animated animate__fadeInDown">
@@ -354,7 +349,7 @@ function Home() {
                 </h2>
               </div>
             </div>
-            <div className="flex flex-wrap -mx-3 -mb-6 text-center">
+            <div className="flex flex-wrap -mb-6 text-center">
               <div
                 className="relative w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
                 data-wow-delay=".3s"
@@ -511,9 +506,187 @@ function Home() {
             </div>
           </div>
         </section>
+        <section
+          className="py-20 xl:bg-contain bg-top bg-no-repeat"
+          style={{
+            backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')",
+          }}
+          id="key-features"
+        >
+          <div className="container mx-auto">
+            <div className="max-w-lg mx-auto mb-12 text-center">
+              <h2
+                className="my-2 text-3xl md:text-4xl font-bold font-heading wow animate__animated animate__fadeIn"
+                data-wow-delay=".1s"
+              >
+                <span className="text-blue-500">Netdance's</span> outstanding
+                products
+              </h2>
+              <p
+                className="text-blueGray-400 leading-loose wow animate__animated animate__fadeIn"
+                data-wow-delay=".3s"
+              >
+                Netdance aims to become the leading import and export center for
+                technology products and entertainment content in Vietnam.
+              </p>
+            </div>
+            <div className="flex flex-wrap mb-6">
+              <div className="w-full md:w-1/2 lg:w-1/4 px-2  h-80 mb-6">
+                <div
+                  className="border border-gray-100 pt-8 px-6 pb-6 bg-white h-full text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".3s"
+                >
+                  <div className="text-blue-500 mx-auto max-h-36 mb-4 overflow-hidden">
+                    <img
+                      className="rounded w-full h-36  object-cover"
+                      src="/assets/imgs/elements/blog1.png"
+                      alt="NetDance"
+                    />
+                    {/* <svg
+                      className="w-8 h-8 mx-auto"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+                      ></path>
+                    </svg> */}
+                  </div>
+                  <h3 className="mb-2 font-bold font-heading">
+                    Business Solutions
+                  </h3>
+                  <p className="text-sm text-blueGray-400 line-clamp-3 overflow-ellipsis">
+                    #1 Viettel Electronic Invoice Service Price List | November
+                    2021 – Super Promotion 20%.
+                  </p>
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 lg:w-1/4 px-2  h-80 mb-6">
+                <div
+                  className="border border-gray-100 pt-8 px-6 pb-6 bg-white h-full text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".5s"
+                >
+                  <div className="text-blue-500 mx-auto max-h-36 mb-4 overflow-hidden ">
+                    {/* <svg
+                      className="w-8 h-8 mx-auto"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                      ></path>
+                    </svg> */}
+                    <img
+                      className="rounded w-full h-36  object-cover"
+                      src="/assets/imgs/elements/blog2.jpeg"
+                      alt="NetDance"
+                    />
+                  </div>
+                  <h3 className="mb-2 font-bold font-heading">Electronics</h3>
+                  <p className="text-sm text-blueGray-400 line-clamp-3 overflow-ellipsis">
+                    Redmi K60 series launched: Snapdragon 8 Gen 2 for Pro
+                    series, with wireless charging for the first time.
+                  </p>
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 lg:w-1/4 px-2  h-80 mb-6">
+                <div
+                  className="border border-gray-100 pt-8 px-6 pb-6 bg-white h-full text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".7s"
+                >
+                  <div className="text-blue-500 mx-auto max-h-36 mb-4 overflow-hidden">
+                    {/* <svg
+                      className="w-8 h-8 mx-auto"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                      ></path>
+                    </svg> */}
+                    <img
+                      className="rounded w-full h-36  object-cover"
+                      src="/assets/imgs/elements/blog3.jpeg"
+                      alt="NetDance"
+                    />
+                  </div>
+                  <h3 className="mb-2 font-bold font-heading">Tramcar</h3>
+                  <p className="text-sm text-blueGray-400 line-clamp-3 overflow-ellipsis">
+                    Road ~1600km and Electric motorbike.
+                  </p>
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 lg:w-1/4 px-2  h-80 mb-6">
+                <div
+                  className="border border-gray-100 pt-8 px-6 pb-6 bg-white h-full text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".9s"
+                >
+                  <div className="text-blue-500 mx-auto max-h-36 mb-4 overflow-hidden">
+                    {/* <svg
+                      className="w-8 h-8 mx-auto"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"
+                      ></path>
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"
+                      ></path>
+                    </svg> */}
+                    <img
+                      className="rounded w-full h-36  object-cover"
+                      src="/assets/imgs/elements/blog4.jpeg"
+                      alt="NetDance"
+                    />
+                  </div>
+                  <h3 className="mb-2 font-bold font-heading">Computers</h3>
+                  <p className="text-sm text-blueGray-400 line-clamp-3 overflow-ellipsis">
+                    #CES23: High-end monitors are expected to debut at the
+                    consumer electronics fair.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="text-center">
+              <Link href="">
+                <a
+                  href=""
+                  className="inline-block py-4 px-8 text-xs text-white font-semibold leading-none bg-blue-500 hover:bg-blue-700 rounded wow animate__animated animate__fadeIn"
+                  data-wow-delay=".3s"
+                >
+                  Show more
+                </a>
+              </Link>
+            </div>
+          </div>
+        </section>
         <section className="py-12 md:py-20">
-          <div className="container px-4 mx-auto">
-            <div className="flex flex-wrap -mx-3">
+          <div className="container mx-auto px-4 mx-auto">
+            <div className="flex flex-wrap">
               <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left ">
                 <div className="max-w-md lg:max-w-xs mx-auto lg:ml-0 mb-6 lg:mb-0">
                   <h2
@@ -525,7 +698,7 @@ function Home() {
                     </span>
                   </h2>
                   <img
-                    className="h-36 mx-auto my-4"
+                    className="h-36 mx-auto my-4 jumpV mb-4"
                     src="/assets/imgs/illustrations/faqs.svg"
                     alt="NetDance"
                   />
@@ -559,7 +732,7 @@ function Home() {
             backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')",
           }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto px-4 mx-auto">
             <div className="text-center mb-16">
               <h2
                 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn"
@@ -576,7 +749,7 @@ function Home() {
                 Best for freelance developers who need to save their time
               </p>
             </div>
-            <div className="flex flex-wrap -mx-3">
+            <div className="flex flex-wrap">
               <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
                 <div
                   className="hover-up-5 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn"
@@ -899,7 +1072,7 @@ function Home() {
           className="py-20 bg-top bg-no-repeat"
           style={{ backgroundImage: "url('assets/imgs/elements/blob.svg')" }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="container mx-auto px-4 mx-auto">
             <div className="relative py-20 px-4 lg:p-20">
               <div className="max-w-lg mx-auto text-center">
                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">

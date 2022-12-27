@@ -32,6 +32,7 @@ const Layout = ({ children }) => {
           crossorigin="anonymous"
           referrerpolicy="no-referrer"
         ></script>
+        {/* <script src="https://cdn.tailwindcss.com"></script> */}
         <script>new WOW().init();</script>
       </Head>
       <div className="main font-body text-body">

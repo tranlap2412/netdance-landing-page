@@ -21,15 +21,11 @@ const Header = ({ handleHidden }) => {
             : "bg-transparent sticky-bar mt-4"
         }
       >
-        <div className="container bg-transparent">
+        <div className="container px-3 mx-auto bg-transparent">
           <nav className="bg-transparent flex justify-between items-center py-3">
             <Link href="/">
-              <a className="text-3xl font-semibold leading-none">
-                <img
-                  className="h-10"
-                  src="/assets/imgs/logos/logo.png"
-                  alt="NetDance"
-                />
+              <a className="text-3xl font-semibold leading-none w-16">
+                <img src="/assets/imgs/logos/logo4.jpg" alt="NetDance" />
               </a>
             </Link>
             <ul className="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
