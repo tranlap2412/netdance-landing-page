@@ -11,7 +11,7 @@ const Preloader = () => {
               className="mx-auto"
               alt="NetDance"
             />
-            <h1 className="text-lg ml-10 font-semibol text-gray-500 text-center">
+            <h1 className="text-lg font-semibol text-gray-500 text-center">
               Netdance
             </h1>
           </div>

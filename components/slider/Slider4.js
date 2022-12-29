@@ -1,5 +1,10 @@
 import SwiperCore, { Navigation, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+import Banner1 from "../../public/assets/gif/banner1.gif";
+import Banner2 from "../../public/assets/gif/banner2.gif";
+import Banner3 from "../../public/assets/gif/banner3.gif";
+import Banner4 from "../../public/assets/gif/banner4.gif";
 
 SwiperCore.use([Navigation]);
 
@@ -22,16 +27,40 @@ const Slider4 = () => {
         className="custom-class"
       >
         <SwiperSlide>
-          <img className="rounded" src="/assets/gif/banner2.gif" alt="netdan" />
+          <Image
+            className="rounded"
+            src={Banner2}
+            alt="netdan"
+            fill
+            sizes="100vw"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded" src="/assets/gif/banner3.gif" alt="netdan" />
+          <Image
+            className="rounded"
+            src={Banner3}
+            alt="netdan"
+            fill
+            sizes="100vw"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded" src="/assets/gif/banner1.gif" alt="netdan" />
+          <Image
+            className="rounded"
+            src={Banner1}
+            alt="netdan"
+            fill
+            sizes="100vw"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded" src="/assets/gif/banner4.gif" alt="netdan" />
+          <Image
+            className="rounded"
+            src={Banner4}
+            alt="netdan"
+            fill
+            sizes="100vw"
+          />
         </SwiperSlide>
       </Swiper>
 
