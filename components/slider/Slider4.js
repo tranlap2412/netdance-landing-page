@@ -24,7 +24,8 @@ const Slider4 = () => {
       >
         <SwiperSlide>
           <Image
-            layout="fill"
+            width="1280"
+            height="700"
             quality={95}
             objectFit="cover"
             className="rounded"
@@ -34,7 +35,8 @@ const Slider4 = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            layout="fill"
+            width="1280"
+            height="700"
             quality={95}
             objectFit="cover"
             className="rounded"
@@ -44,7 +46,8 @@ const Slider4 = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            layout="fill"
+            width="1280"
+            height="700"
             quality={95}
             objectFit="cover"
             className="rounded"
@@ -54,7 +57,8 @@ const Slider4 = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            layout="fill"
+            width="1280"
+            height="700"
             quality={95}
             objectFit="cover"
             className="rounded"
