@@ -1,10 +1,6 @@
 import SwiperCore, { Navigation, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-import Banner1 from "../../public/assets/gif/banner1.gif";
-import Banner2 from "../../public/assets/gif/banner2.gif";
-import Banner3 from "../../public/assets/gif/banner3.gif";
-import Banner4 from "../../public/assets/gif/banner4.gif";
 
 SwiperCore.use([Navigation]);
 
@@ -28,38 +24,42 @@ const Slider4 = () => {
       >
         <SwiperSlide>
           <Image
+            layout="fill"
+            quality={95}
+            objectFit="cover"
             className="rounded"
-            src={Banner2}
+            src="/assets/gif/banner2.gif"
             alt="netdan"
-            fill
-            sizes="100vw"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
+            layout="fill"
+            quality={95}
+            objectFit="cover"
             className="rounded"
-            src={Banner3}
+            src="/assets/gif/banner3.gif"
             alt="netdan"
-            fill
-            sizes="100vw"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
+            layout="fill"
+            quality={95}
+            objectFit="cover"
             className="rounded"
-            src={Banner1}
+            src="/assets/gif/banner1.gif"
             alt="netdan"
-            fill
-            sizes="100vw"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
+            layout="fill"
+            quality={95}
+            objectFit="cover"
             className="rounded"
-            src={Banner4}
+            src="/assets/gif/banner4.gif"
             alt="netdan"
-            fill
-            sizes="100vw"
           />
         </SwiperSlide>
       </Swiper>
