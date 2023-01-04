@@ -17,6 +17,20 @@ function Home() {
             backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')",
           }}
         >
+          <div className="hidden md:block absolute top-0 left-0 mt-32">
+            <img
+              className="h-64 lg:h-80 jump"
+              src="/assets/imgs/illustrations/at_the_park.svg"
+              alt="Monst"
+            />
+          </div>
+          <div className="hidden md:block absolute top-0 right-0 mt-32">
+            <img
+              className="h-64 lg:h-80 jump"
+              src="/assets/imgs/illustrations/delivered.svg"
+              alt="Monst"
+            />
+          </div>
           <div className="container mx-auto px-4 mx-auto">
             <div className="pt-12 text-center">
               <div className="max-w-2xl mx-auto mb-5">
@@ -61,7 +75,7 @@ function Home() {
             />
             <div
               className="absolute border-[#8deaff] !border-8 rounded-md"
-              style={{ top: "12%", left: "10%", width: "80%", height: "66%" }}
+              style={{ top: "12%", left: "10%", width: "80%", height: "76%" }}
             >
               {/* <img
                 className="jump rounded wow animate__animated animate__fadeIn"
