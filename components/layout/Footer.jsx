@@ -15,7 +15,7 @@ const Footer = () => {
                 <a className="inline-block mx-auto lg:mx-0 text-3xl font-semibold leading-none">
                   <img
                     className="h-42"
-                    src="/assets/imgs/logos/logo4.jpg"
+                    src="/assets/imgs/logos/logo4.png"
                     alt="NetDance"
                   />
                 </a>

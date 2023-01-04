@@ -26,7 +26,6 @@ const Slider4 = () => {
           <Image
             layout="fill"
             objectFit="cover"
-            className="rounded"
             src="/assets/gif/banner2.gif"
             alt="netdan"
           />
@@ -35,7 +34,6 @@ const Slider4 = () => {
           <Image
             layout="fill"
             objectFit="cover"
-            className="rounded"
             src="/assets/gif/banner3.gif"
             alt="netdan"
           />
@@ -44,7 +42,6 @@ const Slider4 = () => {
           <Image
             layout="fill"
             objectFit="cover"
-            className="rounded"
             src="/assets/gif/banner1.gif"
             alt="netdan"
           />
@@ -53,7 +50,6 @@ const Slider4 = () => {
           <Image
             layout="fill"
             objectFit="cover"
-            className="rounded"
             src="/assets/gif/banner4.gif"
             alt="netdan"
           />

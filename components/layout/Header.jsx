@@ -24,8 +24,15 @@ const Header = ({ handleHidden }) => {
         <div className="container px-3 mx-auto bg-transparent">
           <nav className="bg-transparent flex justify-between items-center py-3">
             <Link href="/">
-              <a className="text-3xl font-semibold leading-none w-16">
-                <img src="/assets/imgs/logos/logo4.jpg" alt="NetDance" />
+              <a className="text-3xl font-semibold leading-none w-40">
+                <img
+                  src={
+                    scroll
+                      ? "/assets/imgs/logos/logo2.png"
+                      : "/assets/imgs/logos/logo1.png"
+                  }
+                  alt="NetDance"
+                />
               </a>
             </Link>
             <ul className="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
