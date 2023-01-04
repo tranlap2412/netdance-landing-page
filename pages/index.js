@@ -32,7 +32,10 @@ function Home() {
                     <TextEffect text1=", Comprehensive consulting package" />
                   </span>
                 </p>
-                <a className="btn-accent cursor-pointer py-4 mt-4 px-8 flex items-center justify-center w-64 mx-auto wow animate__animated animate__fadeIn hover-up-5">
+                <a className="btn-primary mt-4 cursor-pointer wow animate__animated animate__fadeIn hover-right-5">
+                  Hot Promotions Summary
+                </a>
+                <a className="btn-accent cursor-pointer py-4 mt-5 px-8 flex items-center justify-center w-64 mx-auto wow animate__animated animate__fadeIn hover-up-5">
                   <img
                     className="w-5 mr-4"
                     src="/assets/imgs/icons/shopping.svg"
@@ -41,23 +44,24 @@ function Home() {
                 </a>
               </div>
               <div>
-                <a className="btn-primary cursor-pointer py-4 px-8 mr-2 wow animate__animated animate__fadeIn hover-left-5">
-                  Demo
-                </a>
-                <a className="btn-white cursor-pointer wow animate__animated animate__fadeIn hover-right-5">
-                  Demo
-                </a>
+                {/* <a className="btn-primary cursor-pointer py-4 px-8 mr-2 wow animate__animated animate__fadeIn hover-left-5">
+                 
+                </a> */}
+                {/* <a className="btn-primary px-10 py-5 cursor-pointer wow animate__animated animate__fadeIn hover-right-5">
+                  Hot Promotions Summary
+                </a> */}
               </div>
             </div>
           </div>
-          <div className="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
+          <div className="relative max-w-7xl mt-16 md:mt-8 mb-8 mx-auto">
             <img
               src="/assets/imgs/elements/pattern.png"
               alt="NetDance"
+              className="w-[120%]"
               // className="jumpV"
             />
             <div
-              className="absolute"
+              className="absolute border-blue-500 !border-8 !outline-8"
               style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}
             >
               {/* <img

@@ -20,13 +20,11 @@ const Slider4 = () => {
           prevEl: ".custom_prev",
           nextEl: ".custom_next",
         }}
-        className="custom-class"
+        className="custom-class w-full h-full"
       >
         <SwiperSlide>
           <Image
-            width="1280"
-            height="700"
-            quality={95}
+            layout="fill"
             objectFit="cover"
             className="rounded"
             src="/assets/gif/banner2.gif"
@@ -35,9 +33,7 @@ const Slider4 = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            width="1280"
-            height="700"
-            quality={95}
+            layout="fill"
             objectFit="cover"
             className="rounded"
             src="/assets/gif/banner3.gif"
@@ -46,9 +42,7 @@ const Slider4 = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            width="1280"
-            height="700"
-            quality={95}
+            layout="fill"
             objectFit="cover"
             className="rounded"
             src="/assets/gif/banner1.gif"
@@ -57,9 +51,7 @@ const Slider4 = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            width="1280"
-            height="700"
-            quality={95}
+            layout="fill"
             objectFit="cover"
             className="rounded"
             src="/assets/gif/banner4.gif"
