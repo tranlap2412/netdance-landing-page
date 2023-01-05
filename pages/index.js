@@ -6,15 +6,16 @@ import Slider2 from "../components/slider/Slider2";
 import Slider4 from "../components/slider/Slider4";
 import PriceIcon from "../public/assets/imgs/icons/priceIcon.svg";
 import Link from "next/link";
+import Slider5 from "../components/slider/Slider5";
 
 function Home() {
   return (
     <>
       <Layout>
         <section
-          className="xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24"
+          className="pb-8 bg-top bg-cover bg-no-repeat relative -mt-24 pt-24"
           style={{
-            backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')",
+            backgroundImage: "url('assets/imgs/backgrounds/bg2.jpeg')",
           }}
         >
           <div className="hidden md:block absolute top-0 left-0 mt-32">
@@ -34,11 +35,11 @@ function Home() {
           <div className="container mx-auto px-4 mx-auto">
             <div className="pt-12 text-center">
               <div className="max-w-2xl mx-auto mb-5">
-                <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-1 font-bold font-heading wow animate__animated animate__fadeIn">
+                <h2 className="text-3xl text-white lg:text-5xl lg:leading-normal mb-1 font-bold font-heading wow animate__animated animate__fadeIn">
                   <span className="text-blue-500">Netdance</span> platform
                   Integrate all parameters from other platforms <br />
                 </h2>
-                <p className="text-blueGray-400 mt-3 leading-relaxed wow animate__animated animate__fadeIn">
+                <p className="text-white mt-3 leading-relaxed wow animate__animated animate__fadeIn">
                   See more <strong className="text-blue-500">NetDance</strong>{" "}
                   cart with commitment <br />
                   <span className="typewrite d-inline text-blue-500">
@@ -67,7 +68,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="relative max-w-7xl mt-16 md:mt-8 mb-8 mx-auto">
+          {/* <div className="relative max-w-7xl mt-16 md:mt-8 mb-8 mx-auto">
             <img
               src="/assets/imgs/elements/pattern.png"
               alt="NetDance"
@@ -77,14 +78,14 @@ function Home() {
               className="absolute border-[#8deaff] !border-8 rounded-md"
               style={{ top: "12%", left: "10%", width: "80%", height: "76%" }}
             >
-              {/* <img
+              <img
                 className="jump rounded wow animate__animated animate__fadeIn"
                 src="/assets/imgs/placeholders/dashboard.png"
                 alt="NetDance"
-              /> */}
+              />
               <Slider4 />
             </div>
-          </div>
+          </div> */}
           <div className="container mx-auto px-4 mx-auto">
             <div className="flex flex-wrap justify-between pt-8 pb-16">
               <div
@@ -108,8 +109,10 @@ function Home() {
                   </svg>
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
-                  <span className="sm:text-2xl font-bold font-heading">+ </span>
-                  <span className="sm:text-2xl font-bold font-heading count">
+                  <span className="sm:text-2xl font-bold font-heading text-white">
+                    +{" "}
+                  </span>
+                  <span className="sm:text-2xl font-bold font-heading text-white count">
                     <CounterUp count={200} time={4} />
                   </span>
                   <p className="text-xs sm:text-base text-blueGray-400">
@@ -138,11 +141,16 @@ function Home() {
                   </svg>
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
-                  <span className="sm:text-2xl font-bold font-heading">+ </span>
-                  <span className="sm:text-2xl font-bold font-heading count">
+                  <span className="sm:text-2xl font-bold font-heading text-white">
+                    +{" "}
+                  </span>
+                  <span className="sm:text-2xl font-bold font-heading text-white count">
                     <CounterUp count={3} time={2} />
                   </span>
-                  <span className="sm:text-2xl font-bold font-heading"> k</span>
+                  <span className="sm:text-2xl font-bold font-heading text-white">
+                    {" "}
+                    k
+                  </span>
                   <p className="text-xs sm:text-base text-blueGray-400">
                     Salary FAN Follow
                   </p>
@@ -169,8 +177,10 @@ function Home() {
                   </svg>
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
-                  <span className="sm:text-2xl font-bold font-heading">+ </span>
-                  <span className="sm:text-2xl font-bold font-heading count">
+                  <span className="sm:text-2xl font-bold font-heading text-white">
+                    +{" "}
+                  </span>
+                  <span className="sm:text-2xl font-bold font-heading text-white count">
                     <CounterUp count={5} time={2} />
                   </span>
                   <p className="text-xs sm:text-base text-blueGray-400">
@@ -199,8 +209,10 @@ function Home() {
                   </svg>
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
-                  <span className="sm:text-2xl font-bold font-heading">+ </span>
-                  <span className="sm:text-2xl font-bold font-heading count">
+                  <span className="sm:text-2xl font-bold font-heading text-white">
+                    +{" "}
+                  </span>
+                  <span className="sm:text-2xl font-bold font-heading text-white count">
                     <CounterUp count={100} time={4} />
                   </span>
                   <p className="text-xs sm:text-base text-blueGray-400">
@@ -1306,6 +1318,39 @@ function Home() {
                     </button>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className="h-100 mx-auto relative container max-w-5xl ">
+            <img
+              className="w-full absolute top-0 left-0 pb-5"
+              src="/assets/imgs/backgrounds/line.png"
+              alt="NetDance"
+            />
+            <img
+              className="w-full absolute bottom-0 left-0 pb-5"
+              src="/assets/imgs/backgrounds/line.png"
+              alt="NetDance"
+            />
+            <div className="py-5 pb-8 w-full flex items-center justify-between gap-5">
+              <div>
+                <p className="lg:text-3xl text-gray-600 leading-relaxed font-bold">
+                  Welcome a member of Netdance
+                </p>
+                <p className="lg:text-md text-gray-500 leading-relaxed">
+                  Profession chooses people, people choose netdance.
+                  <br /> Check out netdance's products now.
+                </p>
+              </div>
+              <div className="">
+                <Link href="/">
+                  <button
+                    className="w-full border-b border-sky-500 mb-2 md:w-auto py-4 px-8 text-xs text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded mb-8"
+                    type="submit"
+                  >
+                    See More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
