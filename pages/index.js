@@ -224,14 +224,17 @@ function Home() {
           </div>
         </section>
 
+        <div className="bg-gray-200 w-full h-4"></div>
         <section
-          className="pt-10 pb-10 md:py-10 lg:py-10 overflow-x-hidden"
+          className="pt-5 pb-5 md:py-10 lg:py-10 overflow-x-hidden"
           id="key-features"
         >
           <div className="container mx-auto px-4">
             <Slider5 />
+            <Slider5 />
           </div>
         </section>
+        <div className="bg-gray-200 w-full h-4"></div>
 
         {/* <section
           className="pt-8 pb-12 md:py-16 lg:py-16 overflow-x-hidden"
