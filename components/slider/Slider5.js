@@ -1,48 +1,119 @@
-import SwiperCore, { Navigation, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
-
-SwiperCore.use([Navigation]);
-
-const Slider5 = () => {
+import Link from "next/link";
+import { Autoplay, Pagination, Navigation } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+const Slider1 = () => {
   return (
     <>
-      qkwjqkwjqwk
       <Swiper
-        slidesPerView={1}
-        spaceBetween={30}
+        breakpoints={{
+          // when window width is >= 768px
+          768: {
+            width: 768,
+            slidesPerView: 2,
+          },
+          1280: {
+            width: 1280,
+            slidesPerView: 5,
+          },
+        }}
         autoplay={{
-          delay: 18800,
+          delay: 2500,
           disableOnInteraction: false,
         }}
-        modules={[Autoplay]}
+        slidesPerView={1}
+        spaceBetween={30}
+        centeredSlides={true}
         loop={true}
         navigation={{
           prevEl: ".custom_prev",
           nextEl: ".custom_next",
         }}
-        className="custom-class w-full h-screen"
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
       >
-        <SwiperSlide className="h-full">
-          kamskjasjak
-          <Image
-            layout="fill"
-            objectFit="cover"
-            src="/assets/imgs/backgrounds/bg2.jpeg"
-            alt="netdan"
-          />
+        <SwiperSlide>
+          <div className="flex flex-col justify-center items-center w-40">
+            <img
+              className="h-36 w-36 rounded-md"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F1000.png&w=256&q=95"
+            />
+            <p className="mt-2 text-xs sm:text-base text-blueGray-900">
+              Real estate
+            </p>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            layout="fill"
-            objectFit="cover"
-            src="/assets/imgs/backgrounds/bg2.jpeg"
-            alt="netdan"
-          />
+          <div className="flex flex-col justify-center items-center w-40">
+            <img
+              className="h-36 w-36 rounded-md"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F2000.png&w=256&q=95"
+            />
+            <p className="mt-2 text-xs sm:text-base text-blueGray-900">
+              Vehicle
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex flex-col justify-center items-center w-40">
+            <img
+              className="h-36 w-36 rounded-md"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F5000.png&w=256&q=95"
+            />
+            <p className="mt-2 text-xs sm:text-base text-blueGray-900">
+              Mobile phone
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex flex-col justify-center items-center w-40">
+            <img
+              className="h-36 w-36 rounded-md"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F4000.png&w=256&q=95"
+            />
+            <p className="mt-2 text-xs sm:text-base text-blueGray-900">
+              Sport equipment
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex flex-col justify-center items-center w-40">
+            <img
+              className="h-36 w-36 rounded-md"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F13000.png&w=256&q=95"
+            />
+            <p className="mt-2 text-xs sm:text-base text-blueGray-900">
+              Employment
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex flex-col justify-center items-center w-40">
+            <img
+              className="h-36 w-36 rounded-md"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F8000.png&w=256&q=95"
+            />
+            <p className="mt-2 text-xs sm:text-base text-blueGray-900">
+              Requisite
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex flex-col justify-center items-center w-40">
+            <img
+              className="h-36 w-36 rounded-md"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F3000.png&w=256&q=95"
+            />
+            <p className="mt-2 text-xs sm:text-base text-blueGray-900">
+              Fashion plate
+            </p>
+          </div>
         </SwiperSlide>
       </Swiper>
     </>
   );
 };
 
-export default Slider5;
+export default Slider1;

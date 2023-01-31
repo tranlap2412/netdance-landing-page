@@ -13,26 +13,26 @@ function Home() {
     <>
       <Layout>
         <section
-          className="pb-8 bg-top bg-cover bg-no-repeat relative -mt-24 pt-24"
+          className="pb-8 min-h-screen bg-top bg-cover bg-no-repeat relative -mt-24 pt-24"
           style={{
             backgroundImage: "url('assets/imgs/backgrounds/bg2.jpeg')",
           }}
         >
-          <div className="hidden md:block absolute top-0 left-0 mt-32">
+          <div className="hidden md:block absolute top-0 left-0 mt-44">
             <img
-              className="h-64 lg:h-80 jump"
+              className="h-56 lg:h-64 xl:h-80 jump"
               src="/assets/imgs/illustrations/at_the_park.svg"
-              alt="Monst"
+              alt="Netdance"
             />
           </div>
-          <div className="hidden md:block absolute top-0 right-0 mt-32">
+          <div className="hidden md:block absolute top-0 right-0 mt-44">
             <img
-              className="h-64 lg:h-80 jump"
+              className="h-56 lg:h-64 xl:h-80 jump"
               src="/assets/imgs/illustrations/delivered.svg"
-              alt="Monst"
+              alt="Netdance"
             />
           </div>
-          <div className="container mx-auto px-4 mx-auto">
+          <div className="container mx-auto px-4 mt-10">
             <div className="pt-12 text-center">
               <div className="max-w-2xl mx-auto mb-5">
                 <h2 className="text-3xl text-white lg:text-5xl lg:leading-normal mb-1 font-bold font-heading wow animate__animated animate__fadeIn">
@@ -47,15 +47,15 @@ function Home() {
                     <TextEffect text1=", Comprehensive consulting package" />
                   </span>
                 </p>
-                <a className="btn-primary mt-6 cursor-pointer wow animate__animated animate__fadeIn hover-right-5">
+                <a className="btn-primary mt-10 px-11 py-5 cursor-pointer wow animate__animated animate__fadeIn hover-right-5">
                   Hot Promotions Summary
                 </a>
-                <a className="btn-accent cursor-pointer py-4 mt-7 px-8 flex items-center justify-center w-64 mx-auto wow animate__animated animate__fadeIn hover-up-5">
+                <a className="btn-accent cursor-pointer py-4 mt-10 px-8 flex items-center justify-center w-64 mx-auto wow animate__animated animate__fadeIn hover-up-5">
                   <img
                     className="w-5 mr-4"
                     src="/assets/imgs/icons/shopping.svg"
                   />
-                  <span>Buy now</span>
+                  <span className="text-white">Buy now</span>
                 </a>
               </div>
               <div>
@@ -86,7 +86,7 @@ function Home() {
               <Slider4 />
             </div>
           </div> */}
-          <div className="container mx-auto px-4 mx-auto">
+          <div className="container mx-auto px-4 mx-auto mt-10">
             <div className="flex flex-wrap justify-between pt-8 pb-16">
               <div
                 className="hover-down-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn"
@@ -221,6 +221,15 @@ function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section
+          className="pt-10 pb-10 md:py-10 lg:py-10 overflow-x-hidden"
+          id="key-features"
+        >
+          <div className="container mx-auto px-4">
+            <Slider5 />
           </div>
         </section>
 
@@ -366,7 +375,7 @@ function Home() {
           </div>
         </section> */}
 
-        <section className="py-20 bg-blueGray-50" id="how-we-work">
+        <section className="pb-20 pt-12 bg-blueGray-50" id="how-we-work">
           <div className="container mx-auto px-4 mx-auto">
             <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
               <div className="w-full mb-4 lg:mb-0">
@@ -873,7 +882,7 @@ function Home() {
                     alt="NetDance"
                   />
                   <div
-                    className="text-xs md:text-base text-blueGray-400 leading-loose wow animate__animated animate__fadeIn"
+                    className="text-xs customMarker md:text-base text-blueGray-400 leading-loose wow animate__animated animate__fadeIn"
                     data-wow-delay=".9s"
                   >
                     <li>Professional management team</li>
@@ -1315,6 +1324,15 @@ function Home() {
                       type="submit"
                     >
                       Sign Up
+                    </button>
+                    <p className="text-xs text-blueGray-400 font-semibold">
+                      Or contact via zalo
+                    </p>
+                    <button
+                      className="w-full border-b border-sky-500 mb-2 md:w-auto py-4 mt-2 px-8 text-xs text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded mb-8"
+                      type="submit"
+                    >
+                      <a href="#"> Zalo</a>
                     </button>
                   </div>
                 </div>
