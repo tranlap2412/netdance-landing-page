@@ -13,7 +13,7 @@ function Home() {
     <>
       <Layout>
         <section
-          className="pb-8 min-h-screen bg-top bg-cover bg-no-repeat relative -mt-24 pt-24"
+          className="pb-2 md:pb-20 min-h-screen bg-top bg-cover bg-no-repeat relative -mt-24 pt-24"
           style={{
             backgroundImage: "url('assets/imgs/backgrounds/bg2.jpeg')",
           }}
@@ -224,162 +224,100 @@ function Home() {
           </div>
         </section>
 
-        <div className="bg-gray-200 w-full h-4"></div>
-        <section
-          className="pt-5 pb-5 md:py-10 lg:py-10 overflow-x-hidden"
-          id="key-features"
-        >
-          <div className="container mx-auto px-4">
-            <Slider5 />
-            <Slider5 />
+        <section className="translate-y-[-50%]">
+          <div className="">
+            <div className="flex w-full items-start justify-around hiddenScrollBar container rounded-lg bg-blueGray-100 py-5 md:py-10 px-0 overflow-scroll">
+              <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
+                <img
+                  className="rounded-full w-8 md:w-12"
+                  src="https://via.placeholder.com/50"
+                />
+                <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
+                  Goi Pro
+                </p>
+              </div>
+              <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
+                <img
+                  className="rounded-full w-8 md:w-12"
+                  src="https://via.placeholder.com/50"
+                />
+                <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
+                  Thu Mua Dien Thoai
+                </p>
+              </div>
+              <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
+                <img
+                  className="rounded-full w-8 md:w-12"
+                  src="https://via.placeholder.com/50"
+                />
+                <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
+                  Tin Dang Da Luu
+                </p>
+              </div>
+              <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
+                <img
+                  className="rounded-full w-8 md:w-12"
+                  src="https://via.placeholder.com/50"
+                />
+                <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
+                  Tim Kiem Da Luu Tim Kiem
+                </p>
+              </div>
+              <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
+                <img
+                  className="rounded-full w-8 md:w-12"
+                  src="https://via.placeholder.com/50"
+                />
+                <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
+                  Dinh Gia Xe Cu
+                </p>
+              </div>
+              <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
+                <img
+                  className="rounded-full w-8 md:w-12"
+                  src="https://via.placeholder.com/50"
+                />
+                <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
+                  Nap Dong Tot
+                </p>
+              </div>
+              <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
+                <img
+                  className="rounded-full w-8 md:w-12"
+                  src="https://via.placeholder.com/50"
+                />
+                <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
+                  Cho Tot Uu Dai
+                </p>
+              </div>
+            </div>
           </div>
         </section>
-        <div className="bg-gray-200 w-full h-4"></div>
-
-        {/* <section
-          className="pt-8 pb-12 md:py-16 lg:py-16 overflow-x-hidden"
-          id="key-features"
-        >
-          <div className="container mx-auto px-4 mx-auto">
+        <section className="pb-12 -mt-5 overflow-x-hidden" id="key-features">
+          <div className="container mx-auto px-4">
             <div className="flex flex-wrap lg:flex-nowrap">
-              <div className="w-full lg:w-1/2">
+              <div className="w-full">
                 <div
-                  className="lg:py-6 lg:pr-77 wow animate__animated animate__fadeInLeft"
+                  className="wow animate__animated animate__fadeInLeft"
                   data-wow-delay=".3s"
                 >
-                  <div className="mb-4">
-                    <span
-                      className="text-xs py-1 px-3 text-blue-500 font-semibold bg-blue-50 rounded-xlDown"
-                      data-wow-delay=".9s"
-                    >
-                      Why choose us
-                    </span>
+                  <div className="mb-6">
                     <h2
-                      className="text-4xl mt-5 font-bold font-heading "
+                      className="text-4xl mt-1 md:mt-5 font-bold font-heading "
                       data-wow-delay=".3s"
                     >
                       NetDance Features
                     </h2>
                   </div>
-                  <div className="flex items-start py-4" data-wow-delay=".5s">
-                    <div className="w-8 mr-5 text-blue-500">
-                      <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          //   d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="mb-2 text-xl font-semibold font-heading">
-                        Dance Feature
-                      </h3>
-                      <p className="text-blueGray-400 leading-loose">
-                        I want to build a talent team to lead the market by
-                        matrix method
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start py-4" data-wow-delay=".7s">
-                    <div className="w-8 mr-5 text-blue-500">
-                      <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          //   d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"
-                        ></path>
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          //   d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="mb-2 text-xl font-semibold font-heading">
-                        NetDance Features
-                      </h3>
-                      <p className="text-blueGray-400 leading-loose">
-                        Integrated creative drag and drop combo tool for users
-                        And enjoy navigation videos according to their interests
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start py-4" data-wow-delay=".9s">
-                    <div className="w-8 mr-5 text-blue-500">
-                      <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          //   d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="mb-2 text-xl font-semibold font-heading">
-                        NetDance Features
-                      </h3>
-                      <p className="text-blueGray-400 leading-loose">
-                        Build step by step Platform by platform started to be
-                        integrated to expand Manage the number of published
-                        works And the number of users ordering services and
-                        products
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
-                <div
-                  className="wow animate__animated animate__fadeIn"
-                  data-wow-delay=".5s"
-                >
-                  <img
-                    className="jump relative mx-auto rounded-xl w-full z-10"
-                    src="/assets/imgs/placeholders/img-1.png"
-                    alt="NetDance"
-                  />
-                  <img
-                    className="absolute top-0 left-0 w-40 -ml-12 -mt-12"
-                    src="/assets/imgs/elements/blob-tear.svg"
-                    alt="NetDance"
-                  />
-                  <img
-                    className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12 jumpX"
-                    src="/assets/imgs/elements/blob-tear.svg"
-                    alt="NetDance"
-                  />
+                  <Slider5 />
                 </div>
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
         <section className="pb-20 pt-12 bg-blueGray-50" id="how-we-work">
-          <div className="container mx-auto px-4 mx-auto">
+          <div className="container mx-auto px-4">
             <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
               <div className="w-full mb-4 lg:mb-0">
                 <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animated animate__fadeInDown">
@@ -867,7 +805,7 @@ function Home() {
           </div>
         </section>
         <section className="py-12 md:py-20">
-          <div className="container mx-auto px-4 mx-auto">
+          <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left ">
                 <div className="max-w-md lg:max-w-xs mx-auto lg:ml-0 mb-6 lg:mb-0">

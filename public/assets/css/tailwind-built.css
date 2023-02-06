@@ -2062,6 +2062,10 @@ li.menu-item-has-children.active .menu-expand {
   width: 70%;
 }
 
+.hiddenScrollBar::-webkit-scrollbar {
+  display: none;
+}
+
 #scrollUp {
   width: 40px;
   height: 40px;
