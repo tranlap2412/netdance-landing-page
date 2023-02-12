@@ -13,7 +13,7 @@ function Home() {
     <>
       <Layout>
         <section
-          className="pb-2 md:pb-20 min-h-screen bg-top bg-cover bg-no-repeat relative -mt-24 pt-24"
+          className="sm:pb-2 md:pb-20 min-h-screen bg-top bg-cover bg-no-repeat relative -mt-24 pt-24"
           style={{
             backgroundImage: "url('assets/imgs/backgrounds/bg2.jpeg')",
           }}
@@ -233,7 +233,7 @@ function Home() {
                   src="https://via.placeholder.com/50"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
-                  Goi Pro
+                  Debt 15|30 days
                 </p>
               </div>
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
@@ -242,7 +242,7 @@ function Home() {
                   src="https://via.placeholder.com/50"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
-                  Thu Mua Dien Thoai
+                  Best price in the market
                 </p>
               </div>
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
@@ -251,7 +251,7 @@ function Home() {
                   src="https://via.placeholder.com/50"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
-                  Tin Dang Da Luu
+                  Exclusive Combo
                 </p>
               </div>
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
@@ -260,7 +260,7 @@ function Home() {
                   src="https://via.placeholder.com/50"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
-                  Tim Kiem Da Luu Tim Kiem
+                  Free netdance ecosystem
                 </p>
               </div>
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
@@ -269,7 +269,7 @@ function Home() {
                   src="https://via.placeholder.com/50"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
-                  Dinh Gia Xe Cu
+                  Installment 0%
                 </p>
               </div>
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
@@ -278,7 +278,7 @@ function Home() {
                   src="https://via.placeholder.com/50"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
-                  Nap Dong Tot
+                  Franchise registration
                 </p>
               </div>
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
@@ -287,7 +287,7 @@ function Home() {
                   src="https://via.placeholder.com/50"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
-                  Cho Tot Uu Dai
+                  Guarantee
                 </p>
               </div>
             </div>
