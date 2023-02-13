@@ -229,8 +229,8 @@ function Home() {
             <div className="flex w-full items-start justify-around hiddenScrollBar container rounded-lg bg-blueGray-100 py-5 md:py-10 px-0 overflow-scroll">
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
                 <img
-                  className="rounded-full w-8 md:w-12"
-                  src="https://via.placeholder.com/50"
+                  className="rounded-full w-10 md:w-14"
+                  src="/assets/imgs/logos/img11.jpg"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
                   Debt 15|30 days
@@ -238,8 +238,8 @@ function Home() {
               </div>
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
                 <img
-                  className="rounded-full w-8 md:w-12"
-                  src="https://via.placeholder.com/50"
+                  className="rounded-full w-10 md:w-14"
+                  src="/assets/imgs/logos/img2.jpg"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
                   Best price in the market
@@ -247,8 +247,8 @@ function Home() {
               </div>
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
                 <img
-                  className="rounded-full w-8 md:w-12"
-                  src="https://via.placeholder.com/50"
+                  className="rounded-full w-10 md:w-14"
+                  src="/assets/imgs/logos/img3.jpg"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
                   Exclusive Combo
@@ -256,8 +256,8 @@ function Home() {
               </div>
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
                 <img
-                  className="rounded-full w-8 md:w-12"
-                  src="https://via.placeholder.com/50"
+                  className="rounded-full w-10 md:w-14"
+                  src="/assets/imgs/logos/img4.jpg"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
                   Free netdance ecosystem
@@ -265,8 +265,8 @@ function Home() {
               </div>
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
                 <img
-                  className="rounded-full w-8 md:w-12"
-                  src="https://via.placeholder.com/50"
+                  className="rounded-full w-10 md:w-14"
+                  src="/assets/imgs/logos/img5.jpg"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
                   Installment 0%
@@ -274,8 +274,8 @@ function Home() {
               </div>
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
                 <img
-                  className="rounded-full w-8 md:w-12"
-                  src="https://via.placeholder.com/50"
+                  className="rounded-full w-10 md:w-14"
+                  src="/assets/imgs/logos/img10.jpg"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
                   Franchise registration
@@ -283,8 +283,8 @@ function Home() {
               </div>
               <div className="flex flex-col items-center justify-start ml-1 md:ml-0 text-blueGray-600 hover:text-blue-500 cursor-pointer">
                 <img
-                  className="rounded-full w-8 md:w-12"
-                  src="https://via.placeholder.com/50"
+                  className="rounded-full w-10 md:w-14"
+                  src="/assets/imgs/logos/img7.jpg"
                 />
                 <p className="text-xs mt-1 font-medium break-words w-20 md:w-28 line-clamp-2 text-center">
                   Guarantee
